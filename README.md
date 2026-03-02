@@ -1,7 +1,7 @@
 # STM32F103 Calculator
 
 Bare-metal C calculator running on the STM32F103C8T6 (Blue Pill).
-Direct HAL register access — no Arduino, no RTOS.
+Direct HAL register access  no RTOS.
 
 ---
 
@@ -22,15 +22,15 @@ Direct HAL register access — no Arduino, no RTOS.
 ### LCD → STM32 (Port B)
 | LCD Pin | STM32 Pin | Notes                        |
 |---------|-----------|------------------------------|
-| RS      | PB0       |                              |
-| EN      | PB1       |                              |
-| D4      | PB4       |                              |
-| D5      | PB5       |                              |
-| D6      | PB6       |                              |
-| D7      | PB7       |                              |
+| RS      | PB0       | The Reset pin                |
+| EN      | PB1       | The enable pin               |
+| D4      | PB4       | Data Pin 4                   |
+| D5      | PB5       | Data Pin 5                   |
+| D6      | PB6       | Data Pin 6                   |
+| D7      | PB7       | Data Pin 7                   |
 | RW      | GND       | Always write mode            |
 | V0      | Pot wiper | Contrast adjust              |
-| VDD/VSS | 3.3V/GND  |                              |
+| VDD/VSS | 3.3V/GND  | Power Pin                    |
 
 ### Keypad → STM32 (Port A)
 | Keypad | STM32 Pin | Mode              |
