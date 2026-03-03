@@ -23,16 +23,7 @@ Direct HAL register access  no RTOS.
 | LCD Pin | STM32 Pin | Notes                        |
 |---------|-----------|------------------------------|
 | RS      | PB0       | The Reset pin                |
-<<<<<<< HEAD
 | EN      | PB1       | The Enable pin               |
-| EN      | PB1       | The enable pin               |
-=======
-<<<<<<< HEAD
-| EN      | PB1       | The Enable pin               |
-=======
-| EN      | PB1       | The enable pin               |
->>>>>>> 4f701f1c326549923b7e2825ae472086b0f1fa5d
->>>>>>> 5e8b71cff381d2ab06f439bad8598fb0d18fefe8
 | D4      | PB4       | Data Pin 4                   |
 | D5      | PB5       | Data Pin 5                   |
 | D6      | PB6       | Data Pin 6                   |
@@ -40,16 +31,8 @@ Direct HAL register access  no RTOS.
 | RW      | GND       | Always write mode            |
 | V0      | Pot wiper | Contrast adjust              |
 | VDD/VSS | 3.3V/GND  | Power Pin                    |
-<<<<<<< HEAD
 
 ---
-=======
-<<<<<<< HEAD
-
----
-=======
->>>>>>> 4f701f1c326549923b7e2825ae472086b0f1fa5d
->>>>>>> 5e8b71cff381d2ab06f439bad8598fb0d18fefe8
 
 ### Keypad → STM32 (Port A)
 | Keypad | STM32 Pin | Mode              |
@@ -128,7 +111,7 @@ pio run
 pio run --target upload
 
 #Clean build output
-pio run --target clean
+pio run --target clean 
 ```
 
 ---
