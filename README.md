@@ -24,6 +24,7 @@ Direct HAL register access  no RTOS.
 |---------|-----------|------------------------------|
 | RS      | PB0       | The Reset pin                |
 | EN      | PB1       | The Enable pin               |
+| EN      | PB1       | The enable pin               |
 | D4      | PB4       | Data Pin 4                   |
 | D5      | PB5       | Data Pin 5                   |
 | D6      | PB6       | Data Pin 6                   |
